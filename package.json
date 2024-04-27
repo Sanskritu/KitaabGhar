@@ -1,7 +1,8 @@
 {
-  "name": "assignment3",
+  "name": "sec8",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
@@ -9,14 +10,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/sequelize": "^4.28.20",
     "body-parser": "^1.20.2",
     "ejs": "^3.1.9",
     "express": "^4.19.2",
-    "express-handlebars": "3.0",
-    "pug": "^3.0.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
-  },
-  "description": ""
+    "express-handlebars": "^7.1.2",
+    "mongodb": "^6.5.0",
+    "mysql2": "^3.9.7",
+    "nodemon": "^3.1.0",
+    "pug": "^3.0.2",
+    "sequelize": "^6.37.3"
+  }
 }
